@@ -19,9 +19,7 @@ Welcome to **Passwords to Remember** - the second installment in the Valentin's 
 3. You can customize the length of the password and include/exclude special characters as needed.
 
 ## Screenshots
-![https://github.com/v4lpt/PWG/blob/master/Shots%20of%20the%20screen/Screenshot1.png](https://github.com/v4lpt/PWG/blob/master/Shots%20of%20the%20screen/Screenshot1.png)
-
-![https://github.com/v4lpt/PWG/blob/master/Shots%20of%20the%20screen/Screenshot1.png](https://github.com/v4lpt/PWG/blob/master/Shots%20of%20the%20screen/Screenshot2.png)
+![https://github.com/v4lpt/PWG/blob/master/Shots%20of%20the%20screen/Screenshot1.png](https://github.com/v4lpt/PWG/blob/master/Shots%20of%20the%20screen/Screenshot1.png)![https://github.com/v4lpt/PWG/blob/master/Shots%20of%20the%20screen/Screenshot1.png](https://github.com/v4lpt/PWG/blob/master/Shots%20of%20the%20screen/Screenshot2.png)
 
 ## Feedback
 
