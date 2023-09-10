@@ -1,14 +1,14 @@
 # Valentin's PowerTools #002 - Passwords to remember :key: 
 ## VPT-002-PWG
-Welcome to **Passwords to Remember** - the second installment in the Valentin's Power Tools (VPT) series! :sparkles: This powerful tool is designed to generate secure yet human-readable, pronounceable, and memorable passwords that adhere to common password-making rules. No more struggling with strong passwords where you have to memorize and type each character individually. Most Passwords from this PWG are easy to remember and even to pronounce (speak). With **Passwords to Remember**, you'll have strong passwords at your fingertips in no time!
+Welcome to **Passwords to Remember** - the second installment in the Valentin's Power Tools (VPT) series! :sparkles: This powerful tool is designed to generate strong yet human-readable, pronounceable, and memorable passwords that adhere to common password-making rules. No more struggling with strong passwords where you have to memorize and type each character individually. Most Passwords from this PWG are easy to remember and even to pronounce (speak). With **Passwords to Remember**, you'll have strong passwords at your fingertips in no time!
 
 ## Features
 
-- :closed_lock_with_key: **Secure Passwords**: Generates strong passwords with a mix of characters, including uppercase letters, lowercase letters, special characters, and numbers.
+- :closed_lock_with_key: **Strong Passwords**: Generates strong passwords with a mix of characters, including uppercase letters, lowercase letters, special characters, and numbers.
 
 - :clipboard: **Clipboard Integration**: The generated password is automatically copied to your clipboard for seamless use in various applications and websites.
 
-- :computer: **Local Operation**: Your passwords are created locally on your device, ensuring your security and privacy.
+- :computer: **Local Operation**: Nothing is saved, and nothing is sent.
 
 ## Usage
 
