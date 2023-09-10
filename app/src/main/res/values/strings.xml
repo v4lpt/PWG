@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">VPT#002-PWG</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="anleitung">This is a password generator that (hopefully) generates human-readable, pronounceable, and memorable passwords while also adhering to most password-making rules (1 uppercase letter, 1 lowercase letter, 1 special character, numbers). \n\n<b><font color="#efcac2">The generated password is automatically copied to the clipboard.</font></b>\n\nIt is created locally, and nothing is saved.</string>
+    <string name="LICENSE">
+        Copyright 2023 Valentin\'s PowerTools\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along with this program. If not, see\nhttps://www.gnu.org/licenses
+
+    </string>
+
+
+</resources>
