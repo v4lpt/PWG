@@ -167,8 +167,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void copyToClipboard(String text) {
         ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
-        //android.content.ClipData clip = android.content.ClipData.newPlainText("Generated Password", text);
-        //clipboard.setPrimaryClip(clip); // UNCOMMENT LATER
+        android.content.ClipData clip = android.content.ClipData.newPlainText("Generated Password", text);
+        clipboard.setPrimaryClip(clip); // UNCOMMENT LATER
 
     }
 }
