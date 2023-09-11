@@ -18,12 +18,9 @@ public class InfoFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_info, container, false);
 
         Button backButton = rootView.findViewById(R.id.backButton);
-        backButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Replace the InfoFragment with the original MainActivity fragment
-                requireActivity().getSupportFragmentManager().popBackStack();
-            }
+        backButton.setOnClickListener(v -> {
+            // Replace the InfoFragment with the original MainActivity fragment
+            requireActivity().getSupportFragmentManager().popBackStack();
         });
 
         return rootView;

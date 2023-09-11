@@ -4,12 +4,11 @@ import android.content.ClipboardManager;
 import android.content.Context;
 import android.graphics.Paint;
 import android.os.Bundle;
-import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
+
 import androidx.fragment.app.Fragment;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
@@ -86,21 +85,15 @@ public class MainActivity extends AppCompatActivity {
         passwordTextView = findViewById(R.id.passwordTextView);
         Button generateButton = findViewById(R.id.generateButton);
 
-        generateButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String generatedPassword = generatePassword();
-                passwordTextView.setText(generatedPassword);
-                copyToClipboard(generatedPassword);
-            }
+        generateButton.setOnClickListener(view -> {
+            String generatedPassword = generatePassword();
+            passwordTextView.setText(generatedPassword);
+            copyToClipboard(generatedPassword);
         });
         FloatingActionButton infoButton = findViewById(R.id.infoButton);
-        infoButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Replace the entire layout with InfoFragment
-                replaceWithFragment(new InfoFragment());
-            }
+        infoButton.setOnClickListener(v -> {
+            // Replace the entire layout with InfoFragment
+            replaceWithFragment(new InfoFragment());
         });
 
     }
