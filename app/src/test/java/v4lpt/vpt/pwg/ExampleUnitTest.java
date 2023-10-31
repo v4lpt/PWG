@@ -1,4 +1,4 @@
-package com.example.appgen2;
+package v4lpt.vpt.pwg;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.example.appgen2;
+package v4lpt.vpt.pwg;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,6 +9,8 @@ import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+
+import com.example.appgen2.R;
 
 public class InfoFragment extends Fragment {
 

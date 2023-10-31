@@ -1,10 +1,9 @@
-package com.example.appgen2;
+package v4lpt.vpt.pwg;
 
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.graphics.Paint;
 import android.os.Bundle;
-import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.Button;
 import android.widget.TextView;
@@ -12,6 +11,8 @@ import android.widget.TextView;
 import androidx.fragment.app.Fragment;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
+
+import com.example.appgen2.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import androidx.fragment.app.FragmentTransaction;
 import java.util.ArrayList;
