@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 
-import com.example.appgen2.R;
+import v4lpt.vpt.pwg.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import androidx.fragment.app.FragmentTransaction;
 import java.util.ArrayList;

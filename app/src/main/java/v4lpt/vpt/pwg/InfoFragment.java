@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.appgen2.R;
+import v4lpt.vpt.pwg.R;
 
 public class InfoFragment extends Fragment {
 
