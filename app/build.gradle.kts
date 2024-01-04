@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.appgen2"
+    namespace = "v4lpt.vpt.pwg"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.appgen2"
+        applicationId = "v4lpt.vpt.pwg"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
