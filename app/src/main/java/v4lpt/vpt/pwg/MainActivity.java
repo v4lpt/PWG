@@ -20,6 +20,7 @@ import java.util.List;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
+    // the sylibbles
     private static final String[] syllables2 = {
             "ba", "be", "bi", "bo", "bu", "da", "de", "di", "do", "du",
             "ga", "ge", "gi", "go", "gu", "ja", "je", "ji", "jo", "ju",
