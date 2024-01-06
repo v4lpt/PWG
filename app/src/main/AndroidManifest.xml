@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:versionCode="4"
-    android:versionName="1.0.3">
+    package="v4lpt.vpt.pwg"
+    android:versionCode="104"
+    android:versionName="1.0.4">
 
     <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="33" />
 
