@@ -2,6 +2,12 @@
 ## VPT-002-PWG
 Welcome to **Passwords to Remember** - the second installment in the Valentin's Power Tools (VPT) series! :sparkles: This tool generates strong, yet human-readable, pronounceable, and memorable passwords that adhere to common password-making rules. No more struggling with strong passwords where you have to memorize and type each character individually. Most Passwords from this PWG are easy to remember and even to pronounce (speak). With **Passwords to Remember**, you'll have strong passwords at your fingertips in no time!
 
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+     alt="Get it on F-Droid"
+     height="80">](https://f-droid.org/packages/v4lpt.vpt.pwg/)
+
+Or download the latest APK from the [Releases Section](https://github.com/v4lpt/PWG/releases/latest).
+
 ## Features
 
 - :closed_lock_with_key: **Strong Passwords**: Generates strong passwords with a mix of characters, including uppercase letters, lowercase letters, special characters, and numbers.
