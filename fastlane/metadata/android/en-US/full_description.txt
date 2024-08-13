@@ -1,39 +1,25 @@
-<h1 id="valentins-powertools-002---passwords-to-remember">Valentin’s
-PowerTools #002 - Passwords to remember 🔑</h1>
-<h2 id="vpt-002-pwg">VPT-002-PWG</h2>
-<p>Welcome to <strong>Passwords to Remember</strong> - the second
-installment in the Valentin’s Power Tools (VPT) series! :sparkles: This
-tool generates strong, yet human-readable, pronounceable, and memorable
+This tool generates strong, yet human-readable, pronounceable, and memorable
 passwords that adhere to common password-making rules. No more
 struggling with strong passwords where you have to memorize and type
 each character individually. Most Passwords from this PWG are easy to
-remember and even to pronounce (speak). With <strong>Passwords to
-Remember</strong>, you’ll have strong passwords at your fingertips in no
-time!</p>
-<h2 id="features">Features</h2>
-<ul>
-<li><p>🔒 <strong>Strong Passwords</strong>: Generates strong passwords
+remember and even to pronounce (speak). 
+<strong>Features: </strong>
+- 🔒 <strong>Strong Passwords</strong>: Generates strong passwords
 with a mix of characters, including uppercase letters, lowercase
-letters, special characters, and numbers.</p></li>
-<li><p>📋 <strong>Clipboard Integration</strong>: The generated password
+letters, special characters, and numbers.
+- 📋 <strong>Clipboard Integration</strong>: The generated password
 is automatically copied to your clipboard for seamless use in various
-applications and websites.</p></li>
-<li><p>🖥️ <strong>Local Operation</strong>: Nothing is saved, and
-nothing is sent.</p></li>
-</ul>
-<h2 id="usage">Usage</h2>
-<ol type="1">
-<li><p>Simply click the “Generate Password” button, and a strong
-password will be instantly generated for you.</p></li>
-<li><p>The generated password will be automatically copied to your
-clipboard, ready to be pasted wherever you need it.</p></li>
-<li><p>You can customize the length of the password and include/exclude
+applications and websites.
+- 🖥️ <strong>Local Operation</strong>: Nothing is saved, and
+nothing is sent.
+
+<strong>Usage:</strong>
+- Simply click the “Generate Password” button, and a strong
+password will be instantly generated for you.
+- The generated password will be automatically copied to your
+clipboard, ready to be pasted wherever you need it.
+- You can customize the length of the password and include/exclude
 special characters as needed. (by only selecting a part of the password
-and copying it manually)</p></li>
-</ol>
-<h2 id="license">License</h2>
-<p>This project is licensed under the <strong>GNU General Public License
-(GPL)</strong>.</p>
-<hr />
-<p>Created with ❤️ by <a
-href="https://github.com/v4lpt">Valentin</a></p>
+and copying it manually).
+
+Created with ❤️ by Valentin.
