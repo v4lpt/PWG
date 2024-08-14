@@ -23,7 +23,10 @@ Welcome to **Passwords to Remember** - the second installment in the Valentin's 
 3. You can customize the length of the password and include/exclude special characters as needed. (by only selecting a part of the password and copying it manually)
 
 ## Screenshots
-![https://github.com/v4lpt/PWG/blob/master/Shots%20of%20the%20screen/Screenshot1.png](https://github.com/v4lpt/PWG/blob/master/Shots%20of%20the%20screen/Screenshot1.png)![https://github.com/v4lpt/PWG/blob/master/Shots%20of%20the%20screen/Screenshot1.png](https://github.com/v4lpt/PWG/blob/master/Shots%20of%20the%20screen/Screenshot2.png)
+[<img width=200 alt="Screenshot 1"
+src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true)
+[<img width=200 alt="Screenshot 2"
+src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true)
 
 ## Feedback
 
