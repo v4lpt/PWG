@@ -1,25 +1,20 @@
-This tool generates strong, yet human-readable, pronounceable, and memorable
-passwords that adhere to common password-making rules. No more
-struggling with strong passwords where you have to memorize and type
-each character individually. Most Passwords from this PWG are easy to
-remember and even to pronounce (speak). 
-<strong>Features: </strong>
-- 🔒 <strong>Strong Passwords</strong>: Generates strong passwords
-with a mix of characters, including uppercase letters, lowercase
-letters, special characters, and numbers.
-- 📋 <strong>Clipboard Integration</strong>: The generated password
-is automatically copied to your clipboard for seamless use in various
-applications and websites.
-- 🖥️ <strong>Local Operation</strong>: Nothing is saved, and
-nothing is sent.
+This tool generates strong, yet human-readable, pronounceable, and memorable passwords that adhere to common password-making rules. No more struggling with strong passwords where you have to memorize and type each character individually. Most Passwords from this PWG are easy to remember and even to pronounce (speak). 
 
-<strong>Usage:</strong>
-- Simply click the “Generate Password” button, and a strong
+<b>Features: </b>
+
+* 🔒 <strong>Strong Passwords</strong>: Generates strong passwords with a mix of characters, including uppercase letters, lowercase letters, special characters, and numbers.
+* 📋 <strong>Clipboard Integration</strong>: The generated password is automatically copied to your clipboard for seamless use in various applications and websites.
+* 🖥️ <strong>Local Operation</strong>: Nothing is saved, and nothing is sent.
+
+<b>Usage:</b>
+
+* Simply click the “Generate Password” button, and a strong
 password will be instantly generated for you.
-- The generated password will be automatically copied to your
+* The generated password will be automatically copied to your
 clipboard, ready to be pasted wherever you need it.
-- You can customize the length of the password and include/exclude
+* You can customize the length of the password and include/exclude
 special characters as needed. (by only selecting a part of the password
 and copying it manually).
 
 Created with ❤️ by Valentin.
+Tags: Password Generator

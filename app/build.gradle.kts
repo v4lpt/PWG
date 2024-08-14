@@ -10,12 +10,17 @@ android {
         applicationId = "v4lpt.vpt.pwg"
         minSdk = 24
         targetSdk = 33
-        versionCode = 104
-        versionName = "1.0.4"
+        versionCode = 105
+        versionName = "1.0.5"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
+    dependenciesInfo {
+        // Disables dependency metadata when building APKs.
+        includeInApk = false
+        // Disables dependency metadata when building Android App Bundles.
+        includeInBundle = false
+    }
     buildTypes {
         release {
             isMinifyEnabled = false
