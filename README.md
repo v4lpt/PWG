@@ -28,9 +28,6 @@ src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true">](f
 [<img width=200 alt="Screenshot 2"
 src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true)
 
-## Feedback
-
-We'd love to hear your feedback and suggestions to make **Passwords to Remember** even better. Feel free to [open an issue](https://github.com/v4lpt/PWG/issues) on my GitHub repository.
 
 ## License
 
