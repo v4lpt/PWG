@@ -2,6 +2,7 @@ package v4lpt.vpt.pwg;
 
 import android.content.ClipboardManager;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.ViewTreeObserver;
@@ -20,6 +21,9 @@ import java.util.List;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
+    private static final String PREFS_NAME = "PasswordGeneratorPrefs";
+    private static final String PREF_AUTO_COPY = "auto_copy_enabled";
+
     // the sylibbles
     private static final String[] syllables2 = {
             "ba", "be", "bi", "bo", "bu", "da", "de", "di", "do", "du",
@@ -41,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
             "var", "ven", "vir", "vor", "vul", "zar", "zen", "zir", "zor", "zul"
     };
     private TextView passwordTextView;
+    private boolean isAutoCopyEnabled = true; // Auto-copy is enabled by default
+    private com.google.android.material.button.MaterialButton autoCopyToggleButton;
 
 
     @Override
@@ -92,12 +98,39 @@ public class MainActivity extends AppCompatActivity {
             passwordTextView.setText(generatedPassword);
             copyToClipboard(generatedPassword);
         });
+
         FloatingActionButton infoButton = findViewById(R.id.infoButton);
         infoButton.setOnClickListener(v -> {
             // Replace the entire layout with InfoFragment
             replaceWithFragment(new InfoFragment());
         });
 
+        // Initialize auto-copy toggle button
+        autoCopyToggleButton = findViewById(R.id.autoCopyToggleButton);
+
+        // Load saved preference
+        SharedPreferences prefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
+        isAutoCopyEnabled = prefs.getBoolean(PREF_AUTO_COPY, false); // default false
+        updateAutoCopyIcon();
+
+        autoCopyToggleButton.setOnClickListener(v -> {
+            isAutoCopyEnabled = !isAutoCopyEnabled;
+
+            // Save the preference
+            SharedPreferences.Editor editor = prefs.edit();
+            editor.putBoolean(PREF_AUTO_COPY, isAutoCopyEnabled);
+            editor.apply();
+
+            updateAutoCopyIcon();
+        });
+    }
+
+    private void updateAutoCopyIcon() {
+        if (isAutoCopyEnabled) {
+            autoCopyToggleButton.setIcon(getDrawable(R.drawable.autocopy_on));
+        } else {
+            autoCopyToggleButton.setIcon(getDrawable(R.drawable.autocopy_off));
+        }
     }
 
 
@@ -161,9 +194,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void copyToClipboard(String text) {
+        if (!isAutoCopyEnabled) {
+            return; // Don't copy if auto-copy is disabled
+        }
+
         ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
         android.content.ClipData clip = android.content.ClipData.newPlainText("Generated Password", text);
-        clipboard.setPrimaryClip(clip); // UNCOMMENT LATER
-
+        clipboard.setPrimaryClip(clip);
     }
 }

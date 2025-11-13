@@ -175,6 +175,28 @@
         app:tint="#FFFFFF"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/autoCopyToggleButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:icon="@drawable/autocopy_on"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="24dp"
+        app:iconTint="#FFFFFF"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        app:cornerRadius="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        app:backgroundTint="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#33FFFFFF" />
+
     <FrameLayout
         android:id="@+id/fragmentContainer"
         android:layout_width="wrap_content"
